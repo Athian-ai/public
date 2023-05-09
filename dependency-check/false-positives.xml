@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
-   <suppress>
-      <notes><![CDATA[
-      file name: gradle-wrapper.jar
-      ]]></notes>
-      <sha1>0f6f1fa2b59ae770ca14f975726bed8d6620ed9b</sha1>
-      <cpe>cpe:/a:gradle:gradle</cpe>
-   </suppress>
-   <suppress>
-      <notes><![CDATA[
-      file name: gradle-wrapper.jar
-      ]]></notes>
-      <sha1>d5f2cff8bfce6bd848ee3dceb06393502f78ca7c</sha1>
-      <cpe>cpe:/a:gradle:gradle</cpe>
-   </suppress>
+    <suppress>
+        <notes><![CDATA[file name: gradle-wrapper.jar]]></notes>
+        <sha1>0f6f1fa2b59ae770ca14f975726bed8d6620ed9b</sha1>
+        <cpe>cpe:/a:gradle:gradle</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: gradle-wrapper.jar]]></notes>
+        <sha1>d5f2cff8bfce6bd848ee3dceb06393502f78ca7c</sha1>
+        <cpe>cpe:/a:gradle:gradle</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: word-wrap:1.2.3]]></notes>
+        <packageUrl regex="true">^pkg:npm/word\-wrap@.*$</packageUrl>
+        <vulnerabilityName>CVE-2023-26115</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: ejs:3.1.9]]></notes>
+        <packageUrl regex="true">^pkg:npm/ejs@.*$</packageUrl>
+        <vulnerabilityName>CVE-2023-29827</vulnerabilityName>
+    </suppress>
 </suppressions>
