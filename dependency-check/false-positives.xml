@@ -20,6 +20,18 @@
         <packageUrl regex="true">^pkg:npm/ejs@.*$</packageUrl>
         <vulnerabilityName>CVE-2023-29827</vulnerabilityName>
     </suppress>
+    <suppress>
+        <notes><![CDATA[file name: lodash.isstring:4.0.1]]></notes>
+        <packageUrl regex="true">^pkg:npm/lodash.isstring@.*$</packageUrl>
+        <vulnerabilityName>CVE-2019-10744</vulnerabilityName>
+        <vulnerabilityName>CVE-2020-8203</vulnerabilityName>
+        <vulnerabilityName>CVE-2021-23337</vulnerabilityName>
+        <vulnerabilityName>CVE-2018-3721</vulnerabilityName>
+        <vulnerabilityName>CVE-2018-3721</vulnerabilityName>
+        <vulnerabilityName>CVE-2019-1010266</vulnerabilityName>
+        <vulnerabilityName>CVE-2018-16487</vulnerabilityName>
+        <vulnerabilityName>CVE-2020-28500</vulnerabilityName>
+    </suppress>
     <suppress base="true">
        <notes><![CDATA[FP per issue #4525]]></notes>
        <packageUrl regex="true">^pkg:npm/opener@.*$</packageUrl>
