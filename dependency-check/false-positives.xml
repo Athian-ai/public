@@ -16,13 +16,18 @@
         <vulnerabilityName>CVE-2023-26115</vulnerabilityName>
     </suppress>
     <suppress>
+        <notes><![CDATA[file name: index.js]]></notes>
+        <packageUrl regex="true">^pkg:javascript/lodash@.*$</packageUrl>
+        <cve>CVE-2019-10744</cve>
+    </suppress>
+    <suppress>
         <notes><![CDATA[file name: ejs:3.1.9]]></notes>
         <packageUrl regex="true">^pkg:npm/ejs@.*$</packageUrl>
         <vulnerabilityName>CVE-2023-29827</vulnerabilityName>
     </suppress>
     <suppress base="true">
-       <notes><![CDATA[FP per issue #4525]]></notes>
-       <packageUrl regex="true">^pkg:npm/opener@.*$</packageUrl>
-       <cpe>cpe:/a:opener_project:opener</cpe>
+        <notes><![CDATA[FP per issue #4525]]></notes>
+        <packageUrl regex="true">^pkg:npm/opener@.*$</packageUrl>
+        <cpe>cpe:/a:opener_project:opener</cpe>
     </suppress>
 </suppressions>
