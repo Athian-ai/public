@@ -18,7 +18,13 @@
     <suppress>
         <notes><![CDATA[file name: index.js]]></notes>
         <packageUrl regex="true">^pkg:javascript/lodash@.*$</packageUrl>
+        <cve>CVE-2018-16487</cve>
+        <cve>CVE-2018-3721</cve>
+        <cve>CVE-2019-1010266</cve>
         <cve>CVE-2019-10744</cve>
+        <cve>CVE-2020-28500</cve>
+        <cve>CVE-2020-8203</cve>
+        <cve>CVE-2021-23337</cve>
     </suppress>
     <suppress>
         <notes><![CDATA[file name: ejs:3.1.9]]></notes>
