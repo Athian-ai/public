@@ -36,4 +36,11 @@
         <packageUrl regex="true">^pkg:npm/opener@.*$</packageUrl>
         <cpe>cpe:/a:opener_project:opener</cpe>
     </suppress>
+    
+    <!-- Temporary Suppression for ip package. Remove ASAP. -->
+    <suppress>
+        <notes><![CDATA[file name: ip:1.1.8]]></notes>
+        <packageUrl regex="true">^pkg:npm/ip@.*$</packageUrl>
+        <vulnerabilityName>CVE-2023-42282</vulnerabilityName>
+     </suppress>
 </suppressions>
