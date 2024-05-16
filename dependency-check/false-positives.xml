@@ -36,11 +36,33 @@
         <packageUrl regex="true">^pkg:npm/opener@.*$</packageUrl>
         <cpe>cpe:/a:opener_project:opener</cpe>
     </suppress>
-    
+
     <!-- Temporary Suppression for ip package. Remove ASAP. -->
     <suppress>
         <notes><![CDATA[file name: ip:1.1.8]]></notes>
         <packageUrl regex="true">^pkg:npm/ip@.*$</packageUrl>
         <vulnerabilityName>CVE-2023-42282</vulnerabilityName>
-     </suppress>
+    </suppress>
+
+    <!-- Temporary Suppression for ip package. Remove ASAP. -->
+    <suppress>
+        <notes><![CDATA[file name: braces:3.0.2]]></notes>
+        <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
+        <vulnerabilityName>CVE-2024-4068</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: http-cache-semantics:^4.1.0]]></notes>
+        <packageUrl regex="true">^pkg:npm/http\-cache\-semantics@.*$</packageUrl>
+        <cve>CVE-2022-25881</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: micromatch:4.0.5]]></notes>
+        <packageUrl regex="true">^pkg:npm/micromatch@.*$</packageUrl>
+        <vulnerabilityName>CVE-2024-4067</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[file name: tar:6.2.0]]></notes>
+        <packageUrl regex="true">^pkg:npm/tar@.*$</packageUrl>
+        <vulnerabilityName>CVE-2024-28863</vulnerabilityName>
+    </suppress>
 </suppressions>
