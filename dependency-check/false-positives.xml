@@ -44,7 +44,7 @@
         <vulnerabilityName>CVE-2023-42282</vulnerabilityName>
     </suppress>
 
-    <!-- Temporary Suppression for ip package. Remove ASAP. -->
+    <!-- Temporary Suppression for semantic release package. Remove ASAP. -->
     <suppress>
         <notes><![CDATA[file name: braces:3.0.2]]></notes>
         <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
