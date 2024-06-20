@@ -39,6 +39,11 @@
 
     <!-- Temporary Suppression for semantic release package. Remove ASAP. -->
     <suppress>
+       <notes><![CDATA[file name: time-span:5.1.0]]></notes>
+       <packageUrl regex="true">^pkg:npm/time\-span@.*$</packageUrl>
+       <cve>CVE-2017-16115</cve>
+    </suppress>
+    <suppress>
         <notes><![CDATA[file name: braces:3.0.2]]></notes>
         <packageUrl regex="true">^pkg:npm/braces@.*$</packageUrl>
         <vulnerabilityName>CVE-2024-4068</vulnerabilityName>
