@@ -74,6 +74,7 @@
         <packageUrl regex="true">^pkg:npm/fast-xml-parser@.*$</packageUrl>
         <cpe>cpe:/a:fast-xml-parser_project:fast-xml-parser</cpe>
         <vulnerabilityName>GHSA-mpg4-rc92-vx8v</vulnerabilityName>
+        <vulnerabilityName>CVE-2024-41818</vulnerabilityName>
     </suppress>
     <suppress>
         <notes><![CDATA[file name: async:3.2.5]]></notes>
